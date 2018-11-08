@@ -17,12 +17,15 @@
     android:layout_alignParentBottom="true"
     app:menu="@menu/bottom_navigation"/>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imageView"
-        android:scaleType="centerCrop"
-
-        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="213dp"
+        android:layout_height="203dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:text="TomeDelonge"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
 
 </RelativeLayout>
